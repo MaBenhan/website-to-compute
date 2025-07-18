@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>太韓民國官方網站</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/National_flag_placeholder.svg/1024px-National_flag_placeholder.svg.png') no-repeat center center;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- 導航欄 -->
+  <header class="bg-white shadow fixed top-0 w-full z-10">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-800">太韓民國</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-600">首頁</a>
+        <a href="#symbols" class="hover:text-blue-600">國家象徵</a>
+        <a href="#constitution" class="hover:text-blue-600">憲法綱要</a>
+        <a href="#news" class="hover:text-blue-600">最新消息</a>
+        <a href="#diplomacy" class="hover:text-blue-600">外交連繫</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主頁 Hero 區塊 -->
+  <section id="home" class="hero h-screen flex items-center justify-center text-white bg-blue-900 mt-16">
+    <div class="text-center bg-black bg-opacity-50 p-6 rounded-xl">
+      <h2 class="text-4xl font-bold mb-4">歡迎來到太韓民國</h2>
+      <p class="text-lg">自由、民主、文化共榮的國度。</p>
+    </div>
+  </section>
+
+  <!-- 國家象徵 -->
+  <section id="symbols" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-center text-blue-800">國家象徵</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/National_flag_placeholder.svg/512px-National_flag_placeholder.svg.png" alt="國旗" class="mx-auto w-40 mb-4">
+          <h3 class="text-xl font-semibold">國旗</h3>
+          <p class="text-sm">俱樂部並沒有旗幟。</p>
+        </div>
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Coat_of_arms_placeholder.svg/512px-Coat_of_arms_placeholder.svg.png" alt="國徽" class="mx-auto w-40 mb-4">
+          <h3 class="text-xl font-semibold">國徽</h3>
+          <p class="text-sm">俱樂部並沒有國徽。</p>
+        </div>
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Music-icon.svg" alt="國歌" class="mx-auto w-20 mb-4">
+          <h3 class="text-xl font-semibold">國歌</h3>
+          <p class="text-sm">俱樂部並沒有國歌。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 憲法綱要 -->
+  <section id="constitution" class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-blue-800">憲法綱要</h2>
+      <p class="leading-7">
+        待定
+      </p>
+    </div>
+  </section>
+
+  <!-- 最新消息 -->
+  <section id="news" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-blue-800">最新消息</h2>
+      <ul class="space-y-4">
+        <li class="border-b pb-4">
+          <h3 class="font-semibold text-lg">2025/07/15 - 森島市入選全球智慧城市</h3>
+          <p class="text-sm text-gray-600">根據國際智慧城市排名，森島市名列亞洲前十，展示太韓民國在科技與治理上的成果。</p>
+        </li>
+        <li class="border-b pb-4">
+          <h3 class="font-semibold text-lg">2025/07/10 - 太韓－西蘭外交會談啟動</h3>
+          <p class="text-sm text-gray-600">太韓民國與西蘭公國就文化交流與教育合作展開建交前會議，雙方表達積極意願。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 外交連繫 -->
+  <section id="diplomacy" class="py-20 bg-blue-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-blue-800">外交連繫</h2>
+      <p class="mb-4">如有建交或文化交流意願，請透過以下方式與我們聯絡：</p>
+      <ul class="text-sm text-gray-700 space-y-2">
+        <li>📧 電子郵件：<a href="mailto:diplomacy@taehan.gov" class="text-blue-600 underline">diplomacy@taehan.gov</a></li>
+        <li>🏛 外交部地址：森島市太韓大道 100 號</li>
+        <li>🌐 官方網站：<a href="https://taehan.gov" class="text-blue-600 underline">https://taehan.gov</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="text-center text-sm">
+      &copy; 2025 太韓民國政府 — All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
